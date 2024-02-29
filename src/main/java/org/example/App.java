@@ -23,4 +23,15 @@ public class App
 
     }
 
+    public static void main(String[] args) {
+        String[] str = new String[100];
+        for(int i = 1; i <= 100; i++){
+            str[i-1] = fun1(i);
+        }
+
+        for (String s : str) {
+            System.out.print(s + ",");
+        }
+    }
+
 }
